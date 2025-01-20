@@ -1,5 +1,6 @@
 import express, { urlencoded } from "express"
 import productRoutes from "./routes/products/index"
+import "dotenv/config"
 
 const app=express();
 
